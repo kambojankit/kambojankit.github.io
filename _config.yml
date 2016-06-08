@@ -154,24 +154,20 @@ kramdown:
 
 # Collections
 collections:
-  docs:
+  train-framework:
     output: true
     permalink: /:collection/:path/
-  recipes:
+  train-language:
     output: true
     permalink: /:collection/:path/
-  pets:
+  train-tdd:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  train-tools:
     output: true
     permalink: /:collection/:path/
-  tutorials:
-    output: true
-    permalink: /:collection/
 
-
-# Defaults
+# Defaults for posts, pages and our collections
 defaults:
   # _posts
   - scope:
@@ -191,52 +187,43 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _docs
+
+  # train-framework
   - scope:
       path: ""
-      type: docs
-    values:
-      layout: single
-      read_time: false
-      author_profile: false
-      share: false
-      comments: false
-      sidebar:
-        nav: "docs"
-  # _recipes
-  - scope:
-      path: ""
-      type: recipes
+      type: train-framework
     values:
       layout: single
       author_profile: true
       share: true
-      comments: true
-  # _pets
+
+  # train-language
   - scope:
       path: ""
-      type: pets
+      type: train-language
     values:
       layout: single
       author_profile: true
       share: true
-      comment: true
-  # _portfolio
+
+  # train-tdd
   - scope:
       path: ""
-      type: portfolio
+      type: train-language
     values:
       layout: single
-      author_profile: false
+      author_profile: true
       share: true
-  # _portfolio
+
+  # train-tools
   - scope:
       path: ""
-      type: tutorials
+      type: train-tools
     values:
       layout: single
-      author_profile: false
+      author_profile: true
       share: true
+
 
 # Outputting
 permalink: /:categories/:title/

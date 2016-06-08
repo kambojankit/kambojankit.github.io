@@ -1,18 +1,73 @@
 ---
 permalink: /trainings/
-title: "Software Trainings"
-excerpt: "High quality hands-on training available"
-layouts_gallery:
-  - url: mm-layout-splash.png
-    image_path: mm-layout-splash.png
-    alt: "splash layout example"
-  - url: mm-layout-single-meta.png
-    image_path: mm-layout-single-meta.png
-    alt: "single layout with comments and related posts"
-  - url: mm-layout-archive.png
-    image_path: mm-layout-archive.png
-    alt: "archive layout example"
-modified: 2016-04-18T16:39:37-04:00
+title: "<br />Software Trainings"
+excerpt: "High quality hands-on training on different language and frameworks <br />"
+header:
+  overlay_color: "#5e616c"
+  overlay_image: splash/unsplash-16.jpeg
+  caption: "Photo credit: [*Unsplash*](https://unsplash.com)"
+layout: splash
+author_profile: false
+quote:
+  - excerpt: '> Learning Without Thought Is Labor Lost. Thought Without Learning Is Intellectual Death.
+              <br />  - [Confucius](https://en.wikipedia.org/wiki/Confucius)'
+end:
+  - excerpt: ''
 ---
-
 {% include base_path %}
+{% include feature_row id="quote" type="center" %}
+
+# Overview
+
+The space of software design and development, has always required well versed and skilled man-power.
+Master the skills, with high quality, hands-on trainings with the industry experts and build a better world.
+
+## Programming Language
+
+We provide trainings in different programming languages. Please find the courses listed below:
+
+<div class="grid__wrapper">
+  {% for post in site.train-language %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+</div>
+
+
+{% include feature_row id="end" type="center"%}
+
+## Application Frameworks
+
+Make the most out of the different frameworks and libraries with our specially designed courses on different application frameworks and libraries.
+
+<div class="grid__wrapper">
+  {% for post in site.train-framework %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+</div>
+
+{% include feature_row id="end" type="center"%}
+
+## Test Driven Development
+
+Learn the nuances of building high quality and robust application with the TDD courses.
+
+<div class="grid__wrapper">
+  {% for post in site.train-tdd %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+</div>
+
+{% include feature_row id="end" type="center"%}
+
+## Build Tools
+
+Build tools are an important part of the development cycle. They are a great productivity boost, when used properly.
+update to the most sought after build tools:
+
+<div class="grid__wrapper">
+  {% for post in site.train-tools %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+</div>
+
+{% include feature_row id="end" type="center"%}
