@@ -21,7 +21,7 @@ end:
 
 The space of software design and development, has always required well versed and skilled man-power.
 Master the skills, with high quality, hands-on trainings with the industry experts and build a better world.
-
+{% include feature_row id="end" type="center"%}
 ## Programming Language
 
 We provide trainings in different programming languages. Please find the courses listed below:
