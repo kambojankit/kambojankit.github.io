@@ -35,7 +35,15 @@
 .archive__item-title {
   margin-bottom: 0.25em;
   font-family: $sans-serif-narrow;
-  font-size: $type-size-5;
+}
+
+// remove border
+.page__content {
+
+  .archive__item-title {
+    margin-top: 1em;
+    border-bottom: none;
+  }
 }
 
 .archive__item-excerpt {
@@ -166,11 +174,16 @@ a:hover {
 
   &--left {
     @include full();
-    // margin-bottom: 2em;
     font-size: 1.25rem;
 
     .archive__item-teaser {
       margin-bottom: 2em;
+      border-radius: 50%;
+      overflow: hidden;
+      img {
+        border-radius: 50%;
+        width: 100%;
+      }
     }
 
     @include breakpoint($small) {
@@ -188,7 +201,6 @@ a:hover {
 
   &--right {
     @include full();
-    // margin-bottom: 2em;
     font-size: 1.25rem;
 
     .archive__item-teaser {
@@ -212,7 +224,6 @@ a:hover {
 
   &--center {
     @include full();
-    // margin-bottom: 2em;
     font-size: 1.25rem;
 
     .archive__item-teaser {
