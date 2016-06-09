@@ -1,12 +1,14 @@
 ---
+layout: splash  
 permalink: /trainings/
-title: "<br />Software Trainings"
-excerpt: "High quality hands-on training on different language and frameworks <br />"
+title: "<br /> <br /> <br />Software Trainings"
+excerpt: "High quality hands-on training on different language and frameworks <br /> <br /> <br />"
 header:
   overlay_color: "#5e616c"
   overlay_image: splash/unsplash-16.jpeg
+  cta_label: "<i class='fa fa-phone' aria-hidden='true'></i> Contact"
+  cta_url: "../contact/"
   caption: "Photo credit: [*Unsplash*](https://unsplash.com)"
-layout: splash
 author_profile: false
 quote:
   - excerpt: '> Learning Without Thought Is Labor Lost. Thought Without Learning Is Intellectual Death.

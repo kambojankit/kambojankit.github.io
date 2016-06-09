@@ -154,6 +154,9 @@ kramdown:
 
 # Collections
 collections:
+# ==============================================================
+#           Training Collections
+# ==============================================================
   train-framework:
     output: true
     permalink: /:collection/:path/
@@ -166,6 +169,13 @@ collections:
   train-tools:
     output: true
     permalink: /:collection/:path/
+# ==============================================================
+#           Tutrials Collections Defaults
+# ==============================================================
+  tut-java:
+    output: true
+    permalink: /:collection/:path/
+
 
 # Defaults for posts, pages and our collections
 defaults:
@@ -188,6 +198,9 @@ defaults:
       layout: single
       author_profile: true
 
+# ==============================================================
+#           Trainings Collections Defaults
+# ==============================================================
   # train-framework
   - scope:
       path: ""
@@ -224,6 +237,22 @@ defaults:
       author_profile: true
       share: true
 
+# ==============================================================
+#           Tutrials Collections Defaults
+# ==============================================================
+
+  # tut-java
+  - scope:
+      path: ""
+      type: tut-java
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      read_time: false
+      comments: true
+      sidebar:
+        nav: "tut-java"
 
 # Outputting
 permalink: /:categories/:title/

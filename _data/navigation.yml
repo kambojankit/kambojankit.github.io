@@ -42,3 +42,19 @@ main:
 
   - title: "Contact"
     url: /contact/
+
+# Java Tutorials links
+tut-java:
+  - title: Introduction
+    children:
+      - title: "Overview"
+        url: /tut-java/overview/
+      - title: "history"
+        url: /tut-java/history/
+
+  - title: Introduction
+    children:
+      - title: "Overview"
+        url: /tut-java/overview/
+      - title: "history"
+        url: /tut-java/history/
