@@ -56,7 +56,13 @@ To add new tutorial series, follow the following process.
 
       {% include feature_row id="end" type="center"%}
       ```
+## Updating class
 
+## Building & Serving website
+
+    ```AppleScript
+      sudo bundle exec jekyll serve
+    ```
 
 ---
 ###### The Theme used is minimal mistakes
