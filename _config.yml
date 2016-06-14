@@ -175,7 +175,12 @@ collections:
   tut-java:
     output: true
     permalink: /:collection/:path/
-
+# ==============================================================
+#           Products Collections Defaults
+# ==============================================================
+  products:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults for posts, pages and our collections
 defaults:
@@ -247,12 +252,27 @@ defaults:
       type: tut-java
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       share: true
       read_time: false
       comments: true
       sidebar:
         nav: "tut-java"
+
+# ==============================================================
+#           Products Collections Defaults
+# ==============================================================
+
+  # products
+  - scope:
+      path: ""
+      type: products
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      read_time: false
+      comments: true
 
 # Outputting
 permalink: /:categories/:title/

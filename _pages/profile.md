@@ -1,77 +1,99 @@
 ---
+layout: splash
 permalink: /profile/
-title: "Profile"
-excerpt: "Minimal Mistakes is a flexible two-column Jekyll theme."
-layouts_gallery:
-  - url: mm-layout-splash.png
-    image_path: mm-layout-splash.png
-    alt: "splash layout example"
-  - url: mm-layout-single-meta.png
-    image_path: mm-layout-single-meta.png
-    alt: "single layout with comments and related posts"
-  - url: mm-layout-archive.png
-    image_path: mm-layout-archive.png
-    alt: "archive layout example"
-modified: 2016-04-18T16:39:37-04:00
+title: "<br /> <br /> Profile"
+excerpt: "Software Developer, Consultant & Trainer specializing in Mobile and Web Development Space <br /><br />"
+header:
+  overlay_color: "#5e616c"
+  overlay_image: splash/unsplash-13.jpg
+  caption: "Photo credit: [*Unsplash*](https://unsplash.com)"
+modified: 2016-06-14T16:39:37-04:00
+author_profile: false
+links:
+  - excerpt: "> <i class='fa fa-envelope' aria-hidden='true'></i> [connect@ankitkamboj.com](mailto:connect@ankitkamboj.com)
+              <br /> <i class='fa fa-mobile' aria-hidden='true'></i> +91-708-704-3178"
+end:
+  - excerpt: ''
 ---
 
 {% include base_path %}
+{% include feature_row id="links" type="center"%}
 
-Minimal Mistakes is a flexible two-column Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or self-hosting on your own server. As the name implies --- styling is purposely minimalistic to be enhanced and customized by you :smile:.
+## Introduction
 
-The theme includes responsive layouts (`single`, `archive`, and `splash` pages) that look great on mobile and desktop browsers.
+Namaste, I'm Ankit Kamboj, currently based in **Gurgaon, India**. I write this blog and love to create tutorials on technologies that interest me. I am a Software Developer, Consultant and Trainer specializing in Mobile and Web Technologies. I have interest in Mathematics, Programming Languages, Web Development, Software Design etc.
 
-{% include gallery id="layouts_gallery" caption="Examples of included layouts `splash`, `single`, and `archive`." %}
+Currently working as an **Analyst Programmer** with **Fidelity International**. I took undergraduate degree in Computer Science Engineering from Kurukshetra University, India. My initial stint in training was teaching primarily Computers, Mathematics and Science to under-grads.
 
+I now spend most of my time writing code, training and solving challenging and interesting business problems.
 
-
-## Notable Features
-
-- Compatible with Jekyll 3.x and GitHub Pages
-- Several layout options (single, archive, splash pages)
-- SEO optimized with support for [Twitter Cards](https://dev.twitter.com/cards/overview) and [Open Graph](http://ogp.me/) data
-- Optional header images, sidebars, table of contents, galleries, related posts, breadcrumb links, and more.
-- Optional comments ([Disqus](https://disqus.com/), [Facebook](https://developers.facebook.com/docs/plugins/comments), Google+, and custom)
-- Optional analytics ([Google Analytics](https://www.google.com/analytics/) and custom)
-
-## Demo Pages
-
-| Name                                        | Description                                           |
-| ------------------------------------------- | ----------------------------------------------------- |
-| [Post with Header Image][header-image-post] | A post with a large header image. |
-| [HTML Tags and Formatting Post][html-tags-post] | A variety of common markup showing how the theme styles them. |
-| [Syntax Highlighting Post][syntax-post] | Post displaying highlighted code. |
-| [Post with a Gallery][gallery-post] | A post showing several images wrapped in `<figure>` elements. |
-| [Sample Collection Page][sample-collection] | Single page from a collection. |
-| [Categories Archive][categories-archive] | Posts grouped by category. |
-| [Tags Archive][tags-archive] | Posts grouped by tags. |
-
-For even more demo pages check the [posts archive][year-archive].
+When I'm not coding, I like to write blogs and articles on topics of my interest or providing Trainings and mentorship, on different Technologies in Mobile and Web Space.
 
 
+{% include feature_row id="end" type="center"%}
 
+
+## Technical
+
+1. Java
+1. Android
+1. Javascript / Angular JS 2
+1. Web Service / RESTful
+1. Spring / Hibernate
+1. Cucumber / Karma JS / Protractor JS
+1. Maven / Gradle / Gulp / System JS
+1. Git / SVN
+
+{% include feature_row id="end" type="center"%}
+
+## Experience
+
+* *FIDELITY INTERNATIONAL*
 ---
-
-## Credits
-
-### Icons + Demo Images:
-
-- [The Noun Project](https://thenounproject.com) -- Garrett Knoll, Arthur Shlain, and [tracy tam](https://thenounproject.com/tracytam)
-- [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
-- [Unsplash](https://unsplash.com/)
-
-### Other:
-
-- [Jekyll](http://jekyllrb.com/)
-- [jQuery](http://jquery.com/)
-- [Susy](http://susy.oddbird.net/)
-- [Breakpoint](http://breakpoint-sass.com/)
-- [Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/)
-- [FitVids.JS](http://fitvidsjs.com/)
-- Greedy Navigation - [lukejacksonn](http://codepen.io/lukejacksonn/pen/PwmwWV)
-- [jQuery Smooth Scroll](https://github.com/kswedberg/jquery-smooth-scroll)
-- [Stickyfill](https://github.com/wilddeer/stickyfill)
-
+  *Analyst Programmer* __September'14 to Present__
 ---
+	Designed Angular2.js based application to replace and improve upon existing legacy system.
+	Introduced BDD style testing using Jasmine/Karma into existing application code.
+	Developed modern solutions and features for large Enterprise Java systems.
+	Collaborated with and guided global team members transitioning to client side architecture.
+---
+	**Technical Environment** Java, RESTful Web Services, Spring, Hibernate, Angular2.js, Jasmine.js, Cucumber, Tomcat.
 
-Minimal Mistakes is designed, developed, and maintained by Michael Rose. Just another boring, tattooed, designer from Buffalo New York.
+* **SEARS HOLDINGS INDIA**
+---
+  *Technical Associate* __May'12 to September'14__
+---
+  Designed and implemented features and improvements for multiple enterprise sized applications.
+	Automated manual report generation for legacy ticketing system to provide reliable team analytics.
+	Provided quality solutions to mission critical production issues in a timely manner.
+	Proposed, designed and implemented a realtime tracking, deployment and notification system for test environments.
+---
+	**Technical Environment** Java, RESTful Web Services, Spring, My-Batis, JBOSS, MSSQL/Oracle, JUnit.
+
+* **FREELANCER**
+---
+  *Trainer* __2008 to 2012__
+---
+	Designed courses and trained under-grads on Programming Languages and Mathematics.
+---
+	**Environment** Mathematics, Physics, C, Data Structure, Algorithms.
+
+{% include feature_row id="end" type="center"%}
+
+## Projects Undertaken
+
+<div class="grid__wrapper">
+  {% for post in site.products %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+</div>
+
+{% include feature_row id="end" type="center"%}
+
+## Education
+
+* **Oracle Certified Professional, Java SE 6 Programmer** __May 2013__
+* **Bachelor of Technology (Computer Science)** __2007 to 2011__
+	Kurukshetra University, Kurukshetra, India
+
+{% include feature_row id="end" type="center"%}

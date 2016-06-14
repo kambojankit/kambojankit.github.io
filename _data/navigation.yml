@@ -29,7 +29,7 @@ main:
     url: /trainings/
 
   - title: "Product Development"
-    url: /projects/
+    url: /product/
 
   - title: "Tutorials & Talks"
     url: /tutorials/

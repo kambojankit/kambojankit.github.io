@@ -56,16 +56,22 @@ To add new tutorial series, follow the following process.
 
       {% include feature_row id="end" type="center"%}
       ```
-## Updating class
+## Updating CSS class
+    To update the CSS, update the required .sass file and then generate the main.css using the below script
 
+    ```
+      npm run build:css
+    ```
 ## Building & Serving website
+    To build and fire a local jekyll website use the below script.
 
-    ```AppleScript
+    ```
       sudo bundle exec jekyll serve
     ```
+    > Note: updates to '\_config.yml' requires restarting the server
 
 ---
-###### The Theme used is minimal mistakes
+###### Thanks to **Minimal Mistakes**, an awesome jekyll based theme.
 
 ###### The MIT License (MIT)
 
