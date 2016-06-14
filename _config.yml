@@ -13,9 +13,9 @@ name                     : "Ankit Kamboj"
 description              : "A web space to enable learning and skill upgradation"
 
 # URL and baseurl should be commented for development.
-url                      : #"https://kambojankit.github.io" # the base hostname & protocol for your site e.g. "https://kambojankit.github.io"
+url                      : "http://ankitkamboj.com/" #"https://kambojankit.github.io" # the base hostname & protocol for your site e.g. "https://kambojankit.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-# gh_repo                  :
+# gh_repo                :
 teaser                   : /teaser/default-code.png # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
@@ -72,7 +72,7 @@ author:
   avatar           : "AnkitKamboj.jpg"
   bio              : "I am a Software Consultant and Trainer, and an avid sports enthusiast."
   location         : "Gurgaon, India"
-  email            : "er.ankit.kamboj@gmail.com"
+  email            : "connect@ankitkamboj.com"
   uri              : "http://ankitkamboj.com"
   bitbucket        :
   codepen          :
