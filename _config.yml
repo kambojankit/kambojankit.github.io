@@ -22,10 +22,10 @@ words_per_minute         : 200
 comments:
   provider               : "disqus" # false (default), "disqus", "facebook", "google-plus", custom"
   disqus:
-    shortname            : "kambojankit" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "ankitkamboj" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
-    appid                : "528734480631887"
+    appid                : "504921009700105"
     num_posts            : 5 # 5 (default)
     colorscheme          : "light" # "light" (default), "dark"
 
@@ -40,7 +40,7 @@ twitter:
   username               : &twitter "KambojAnkie"
 facebook:
   username               : &facebook "kambojankie"
-  app_id                 : "528734480631887"
+  app_id                 : "504921009700105"
   publisher              :
 og_image                 : "profile-photo" # Open Graph/Twitter default site image
 # For specifying social profiles
