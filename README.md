@@ -56,18 +56,21 @@ To add new tutorial series, follow the following process.
 
       {% include feature_row id="end" type="center"%}
       ```
+
 ## Updating CSS class
     To update the CSS, update the required .sass file and then generate the main.css using the below script
 
     ```
       npm run build:css
     ```
+
 ## Building & Serving website
     To build and fire a local jekyll website use the below script.
 
     ```
       sudo bundle exec jekyll serve
     ```
+    
     > Note: updates to '\_config.yml' requires restarting the server
 
 ---
