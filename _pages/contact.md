@@ -5,4 +5,4 @@ permalink: /contact/
 author_profile: true
 ---
 
-{% include subscribe-slick.html%}
+{% include subscribe-contact.html%}
