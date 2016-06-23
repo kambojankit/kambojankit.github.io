@@ -49,12 +49,5 @@ tut-java:
     children:
       - title: "Overview"
         url: /tut-java/overview/
-      - title: "history"
-        url: /tut-java/history/
-
-  - title: Introduction
-    children:
-      - title: "Overview"
-        url: /tut-java/overview/
-      - title: "history"
-        url: /tut-java/history/
+      - title: "Installation"
+        url: /tut-java/installation/
