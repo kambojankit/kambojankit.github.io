@@ -51,3 +51,7 @@ tut-java:
         url: /tut-java/overview/
       - title: "Installation"
         url: /tut-java/installation/
+      - title: "Basics"
+        url: /tut-java/basics/
+      - title: "OOPs"
+        url: /tut-java/oops/

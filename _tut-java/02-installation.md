@@ -2,7 +2,7 @@
 title: "Installation"
 permalink: /tut-java/installation/
 excerpt: "Here we learn how to install Java, on our machines for development"
-modified: 2016-04-13T15:54:02-04:00
+modified: 2016-05-21
 ---
 
 {% include base_path %}
@@ -20,7 +20,7 @@ For now consider that there are two main components that we would be dealing wit
 
 Java Development Kit, provides us all the required tools and utilities to write Java code. It contains 'Java Compiler', 'JRE' and many other utilities, which we will take a look at later.
 
-___Note___: Generally, JRE is preinstalled on most of the machines, sometimes reffered to as Java-Plugin.
+___Note___: Generally, JRE is preinstalled on most of the machines, sometimes referred to as Java-Plugin.
 
 To Install JDK, please follow the following steps:
 

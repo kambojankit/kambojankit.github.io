@@ -2,7 +2,7 @@
 title: "Overview"
 permalink: /tut-java/overview/
 excerpt: "This is the overview of java programming language"
-modified: 2016-06-20T15:54:02-04:00
+modified: 2016-06-20
 header:
   teaser: teaser/default.jpg
 categories:
@@ -15,9 +15,11 @@ tags:
 
 Welcome to the tutorial series on Java. This tutorial is designed not only as an introduction to the language, but also serves the purpose of gaining in-depth knowledge of the Java world. It is equally beneficial for beginner to intermediate programmers.
 
+What makes java special is its ease of use and rich set of functionalities it provides. Java has widespread adoption and is language of choice for writing most of the enterprise applications.
+
 ## Pre-Requisites
 
-To understand the content, readers should have introductory knowledge on programming in any language, be it C, C++, Python, etc.
+We assume that target audience has some programming knowledge and know how to write basic programs in any language e.g C, C++ etc.
 
 ## Java: What's In a Word
 
@@ -52,6 +54,86 @@ It was renamed to Java 5, later in 2004 JavaOne conference.
 Version 6 was introduced in 2006, with mostly performance improvements.
 
 Version 7 was released in 2011, with basic language enhancements like string handling in switch statements etc.
+
+## Versioning
+
++ Java Version SE 7
+  - Code named Dolphin and released on July 28, 2011.
+  - Strings in switch Statement
+  - Type Inference for Generic Instance Creation - Multiple Exception Handling
+  - Support for Dynamic Languages
+  - Try with Resources
+  - Java nio Package
+  - Binary Literals, underscore in literals
+  - Diamond Syntax
+  - Automatic null Handling
+
++ Java Version SE 6
+  - Code named Mustang and released on December 11, 2006.
+  - Scripting Language Support
+  - JDBC 4.0 API
+  - Java Compiler API
+  - Pluggable Annotations
+  - Native PKI, Java GSS, Kerberos and LDAP support.
+  - Integrated Web Services.
+  - Lot more enhancements.
+
++ J2SE Version 5.0
+  - Code named Tiger and released on September 30, 2004.
+  - Generics
+  - Enhanced for Loop
+  - Autoboxing/Unboxing
+  - Typesafe Enums
+  - Varargs
+  - Static Import
+  - Metadata (Annotations)
+  - Instrumentation
+
++ J2SE Version 1.4
+  - Code named Merlin and released on February 6, 2002 (first release under JCP).
+  - XML Processing
+  - Java Print Service
+  - Logging API
+  - Java Web Start
+  - JDBC 3.0 API
+  - Assertions
+  - Preferences API
+  - Chained Exception
+  - IPv6 Support
+  - Regular Expressions  
+  - Image I/O API
+
++ J2SE Version 1.3
+  - Code named Kestrel and released on May 8, 2000.
+  - Java Sound
+  - Jar Indexing
+  - A huge list of enhancements in almost all the java area.
+
+
++ J2SE Version 1.2
+  - Code named Playground and released on December 8, 1998.
+  - Collections framework.
+  - Java String memory map for constants.
+  - Just In Time (JIT) compiler.
+  - Jar Signer for signing Java Archive (JAR) files.
+  - Policy Tool for granting access to system resources.
+  - Java Foundation Classes (JFC) which consists of Swing 1.0, Drag and Drop,
+  and Java 2D class libraries.
+  - Java Plug-in
+  - Scrollable result sets, BLOB, CLOB, batch update, user-defined types in JDBC.
+  - Audio support in Applets.
+
++ JDK Version 1.1
+  - Released on February 19, 1997
+  - JDBC (Java Database Connectivity)
+  - Inner Classes
+  - Java Beans
+  - RMI (Remote Method Invocation)
+  - Reflection (introspection only)
+
+
++ JDK Version 1.0
+  Codenamed Oak and released on January 23, 1996.
 
 #### References
 + *Core Java Vol - I*
