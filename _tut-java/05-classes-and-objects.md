@@ -55,5 +55,14 @@ class Atm {
 
 **Remember**: We can interact with the object, using the methods specified. The methods are responsible for changing the state of the object. We can create multiple ATM machine objects, and each one would have its own state i.e each one can have different amount of cash present in the ATM. But we can perform same actions on all instances of ATM and i.e withdraw cash from the ATM.
 
+## Class Declaration
 
-## Class Structure
+The class has the following basic structure
+
+```java
+<class-modifiers> class <class-name> {
+    <field-declarations>
+    <method-declarations>
+    <constructor-declarations>
+}
+```

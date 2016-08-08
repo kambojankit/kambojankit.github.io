@@ -44,7 +44,7 @@ We can summarize the key aspects of Java as below:
 Java originated back in 1991, at Sun Micro Systems (now taken over by Oracle), by engineers led by James Gosling & Patrick Naughton. The Problem statement they tried to solve was creating a language to use in consumer micro systems like cable T.V. switch boxes. It had to be small and lightweight. An important aspect required was Machine Independence, since different manufacturers may choose different CPUs.
 The project was code named 'Green'. Gosling however wanted to name the language 'Oak', but since the name was already taken, it came to be known as 'Java'.
 
-However, Java as a product was not accepted by any manufacturers at that time. Hence the actual purpose for which it was designed was not realized yet. Outside of Sun, the world wide web part of internet was growing, and so was the need of a good browser and the java team, realized, the ideas their language was built on (architecture-neutral, real-time, reliable, secure etc) was what was more or less needed by browsers.
+However, Java as a product was not accepted by any manufacturers at that time. Hence the actual purpose for which it was designed was not realized, yet. Outside of Sun, the world wide web part of internet was growing, and so was the need of a good browser and the java team, realized, the ideas their language was built on (architecture-neutral, real-time, reliable, secure etc) was what, more or less was needed by browsers.
 
 The Browser was built by Patrick Naughton & Jonathan Payne. They made java capable of executing code inside of browsers.  This "Proof Of Technology", was showcased on 1995 at SunWorld, and proved to be the game changer.
 
@@ -55,7 +55,18 @@ Version 6 was introduced in 2006, with mostly performance improvements.
 
 Version 7 was released in 2011, with basic language enhancements like string handling in switch statements etc.
 
+Version 8 was released in 2014, with significant improvements like lambda expressions, security enhancements etc.
+
 ## Versioning
+
++ Java Version SE 8
+  - released on March 18, 2014.
+  - Lambda expressions
+  - default methods
+  - Streams API
+  - Nashorn - Javascript Runtime
+  - New Date API
+  - Functional Programming
 
 + Java Version SE 7
   - Code named Dolphin and released on July 28, 2011.

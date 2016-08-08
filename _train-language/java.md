@@ -27,87 +27,35 @@ The course is generally delivered as a **40 hours Module**, but can be customize
 
 ## Course Content
 
-1. Object-Oriented Programming Concepts
-  + What Is an Object?
-  + What Is a Class?
-  + What Is Inheritance?
-  + What Is an Interface?
-  + What Is a Package?
+1. Overview
+  + What is Java
+  + A Little History
+  + Java Versions
 
-2. Language Basics
-  + Variables
-	+ Primitive Data Types
-	+ Arrays
-	+ Operators
-  + Expressions, Statements, and Blocks
-  + Control Flow Statements
-  + Branching Statements
+2. Installation
+  + Installing on Windows
+	+ Installing on Ubuntu
+	+ Installing on Mac OS X
+	+ Verify Installation
 
-3. Classes and Objects
-  + Classes
+3. Language Basics
+  + Basic Language Constructs
+  + Primitive Data Types
+  + Variable Declaration
+  + Default Initial Values
+
+4. OOPs
+  + What is OOPs
   + Objects
-  + Enum Types
-
-4. Packages
-  + Creating and Using Packages
-
-
-5. Interfaces, Inheritance and Polymorphism
-  + Interfaces
+  + Classes
+  + Abstraction
+  + Encapsulation
   + Inheritance
+  + Polymorphism
 
-6. Numbers and Strings
-  + Numbers
-  + Characters
-  + Strings
-  + Autoboxing and Unboxing
 
-7. Exceptions
-  + What Is an Exception?
-  + The Catch or Specify Requirement
-  + Catching and Handling Exceptions
-  + Specifying the Exceptions Thrown by a Method
-  + How to Throw Exceptions
-  + Unchecked Exceptions — The Controversy
-  + Advantages of Exceptions
-
-8. Nested Classes
-  + Inner Class Example
-  + Local Classes
-  + Anonymous Classes
-  + Lambda Expressions
-
-9. Generics (Updated)
-  + Why Use Generics?
-  + Generic Types
-  + Generic Methods
-  + Bounded Type Parameters
-  + Generics, Inheritance, and Subtypes
-  + Type Inference
-  + Wildcards
-  + Type Erasure
-  + Restrictions on Generics
-
-10. Collection Framework
-
-11. Annotations
-  + Annotations Basics
-  + Declaring an Annotation Type
-  + Predefined Annotation Types
-  + Type Annotations and Pluggable Type Systems
-  + Repeating Annotations
-
-12. Input/Output
-  + I/O Streams
-  + File I/O
-
-13. Concurrency
-  + Processes and Threads
-  + Thread Objects
-  + Synchronization
-  + Liveness
-  + Guarded Blocks
-  + Immutable Objects
-  + High Level Concurrency Objects
-
-14. Deployment
+5. Classes & Objects
+  + classes
+  + objects
+  + class declaration
+  +

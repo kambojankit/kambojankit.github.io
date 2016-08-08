@@ -25,7 +25,7 @@ So now we will study these basic constructs of the Java Programming Language.
         + Invalid: name@, grand-sum, 45rik
 + __Keywords__: Reserved words, predefined in the language and cannot be used to denote entities. They are in *Lowercase*.
     + These 3 keywords are reserved as predefined *literals*, `null`, `true`, `false`
-    + `const` and `goto`, are als reserved keywords but are not in use.
+    + `const` and `goto`, are all reserved keywords but are not in use.
     + Below is the list of valid keywords in Java.
 
     | :---------: |  :------:  | :----------: | :---------:   | :------:  | :---------: |
