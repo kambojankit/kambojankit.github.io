@@ -5,10 +5,10 @@ date:
 header:
   overlay_color: "#5e616c"
   overlay_image: splash/unsplash-14.jpeg
-  cta_label: "<i class='fa fa-github' aria-hidden='true'></i> Find Me Here"
+  cta_label: "<i class='fa fa-github' aria-hidden='true'></i> View GITHUB profile"
   cta_url: "https://github.com/kambojankit"
   caption: "Photo credit: [*Unsplash*](https://unsplash.com)"
-excerpt: "Software Consultant & Trainer - Mobile, Web and Cloud Development<br /> <small><i class='fa fa-fw fa-map-marker' aria-hidden='true'></i> Gurgaon, India</small><br /><br />"
+excerpt: "Software Consultant & Trainer - Mobile, Web and Cloud Development<br /> <small><i class='fa fa-fw fa-map-marker' aria-hidden='true'></i> Pune, India</small><br /> <small><i class='fa fa-fw fa-envelope' aria-hidden='true'></i> [connect@ankitkamboj.com](mailto:connect@ankitkamboj.com)</small> <br />"
 about_me:
   - image_path: "AnkitKamboj.jpg"
     alt: "Ankit Kamboj"

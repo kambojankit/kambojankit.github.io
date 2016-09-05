@@ -9,6 +9,10 @@ This repository is for the website <http://ankitkamboj.com>
 New blog posts can be created by adding a new markdown file in \_posts directory in format 'yyyy-mm-dd-name-of-file.md'
 This will publish the blog to the website.
 
+## Updating profile information
+
+    + Go to \_config.yml, and update the required information.
+
 ## Adding Training Content
 
 To add new training content add to one of the provided modules:
@@ -70,7 +74,7 @@ To add new tutorial series, follow the following process.
     ```
       sudo bundle exec jekyll serve
     ```
-    
+
     > Note: updates to '\_config.yml' requires restarting the server
 
 ---

@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Ankit Kamboj"
 title_separator          : "-"
 name                     : &name "Ankit Kamboj"
-description              : &description "A web space to enable learning and skill upgradation"
+description              : &description "A web space for tutorials and blogs on Technology."
 
 # URL and baseurl should be commented for development.
 url                      : "http://ankitkamboj.com" # the base hostname & protocol for your site e.g. "https://kambojankit.github.io"
@@ -71,7 +71,7 @@ author:
   name             : "Ankit Kamboj"
   avatar           : "AnkitKamboj.jpg"
   bio              : "I am a Software Consultant and Trainer, and an avid sports enthusiast."
-  location         : "Gurgaon, India"
+  location         : "Pune, India"
   email            : "connect@ankitkamboj.com"
   uri              : "http://ankitkamboj.com"
   bitbucket        :

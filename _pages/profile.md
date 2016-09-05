@@ -21,9 +21,9 @@ end:
 
 ## Introduction
 
-Namaste, I'm Ankit Kamboj, currently based in **Gurgaon, India**. I write this blog and love to create tutorials on technologies that interest me. I am a Software Developer, Consultant and Trainer specializing in Mobile and Web Technologies. I have interest in Mathematics, Programming Languages, Web Development, Software Design etc.
+Namaste, I'm Ankit Kamboj, currently based in **Pune, India**. I write this blog and love to create tutorials on technologies that interest me. I am a Software Developer, Consultant and Trainer specializing in Mobile and Web Technologies. I have interest in Mathematics, Programming Languages, Web Development, Software Design etc.
 
-Currently working as an **Analyst Programmer** with **Fidelity International**. I took undergraduate degree in Computer Science Engineering from Kurukshetra University, India. My initial stint in training was teaching primarily Computers, Mathematics and Science to under-grads.
+Currently working as an **Senior Engineer** with **Exadatum**. I took undergraduate degree in Computer Science Engineering from Kurukshetra University, India. My initial stint in training was teaching primarily Computers, Mathematics and Science to under-grads.
 
 I now spend most of my time writing code, training and solving challenging and interesting business problems.
 
@@ -50,7 +50,7 @@ When I'm not coding, I like to write blogs and articles on topics of my interest
 
 * *FIDELITY INTERNATIONAL*
 ---
-  *Analyst Programmer* __September'14 to Present__
+  *Analyst Programmer* __September'14 to August'16__
 ---
 	Designed Angular2.js based application to replace and improve upon existing legacy system.
 	Introduced BDD style testing using Jasmine/Karma into existing application code.
