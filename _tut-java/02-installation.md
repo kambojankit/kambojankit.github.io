@@ -51,7 +51,7 @@ Installation can be verified using the below instructions.
    java version <your-java-version>
    ...
 ```
-If you successfully get the displayed output, on executing `java - version`, then JRE is successfully installed on your machine.
+If you successfully get the displayed output, on executing `java -version`, then JRE is successfully installed on your machine.
 
 #### Verify Compiler Installation
 Now to verify that Java compiler has also been set up properly, execute the below command
@@ -61,3 +61,12 @@ Now to verify that Java compiler has also been set up properly, execute the belo
    java <your-java-version>
 ```
 If you successfully get the displayed output, then be assured that Java setup is complete on your machine.
+---
+## Installing Library Source & Documentation
+
+Library source code is downloaded as part of the JDK bundle, in `src.zip` file, at JAVA_HOME. All we need to do is unpack the files to a src folder in JAVA_HOME, so follow the below steps (in a command line shell):
+
+```bash
+   C:\> cd %JAVA_HOME%
+
+```

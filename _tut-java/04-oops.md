@@ -1,5 +1,5 @@
 ---
-title: "Object Orientedness"
+title: "Object Oriented Programming"
 permalink: /tut-java/oops/
 excerpt: "Understanding the concept and principles of OOPs paradigm"
 modified: 2016-06-26

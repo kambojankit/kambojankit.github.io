@@ -6,9 +6,9 @@ modified: 2016-06-20
 header:
   teaser: teaser/default.jpg
 categories:
-  - Java
+  - Java, Java 8
 tags:
-  - Java
+  - Java, Java-8, Java Index,
 ---
 
 {% include base_path %}
@@ -74,7 +74,7 @@ Version 8 was released in 2014, with significant improvements like lambda expres
   - Type Inference for Generic Instance Creation - Multiple Exception Handling
   - Support for Dynamic Languages
   - Try with Resources
-  - Java nio Package
+  - Java NIO Package
   - Binary Literals, underscore in literals
   - Diamond Syntax
   - Automatic null Handling

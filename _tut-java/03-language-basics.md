@@ -11,18 +11,23 @@ Computer Programming can be defined as writing logically (semantically) legal st
 
 To put it more simply, programming is making use of basic elements of the language, in a valid way, defined by that language. This valid way is called language grammar.
 
-So now we will study these basic constructs of the Java Programming Language.
+Now we will study these basic constructs of the Java Programming Language.
 
 ## Basic Language Constructs
 
-+ __Lexical Token__: The low level language elements, like Identifiers, numbers, operators, and special characters are all lexical tokens of the language. They can be used to make more complex high level language elements like expressions, statements, methods, and classes.
++ __Lexical Token__: A lexical token is the smallest meaningful unit of a statement and can consist of 1 or more characters. The low level language elements, like Identifiers, numbers, operators, and special characters are all lexical tokens of the language. They can be used to make more complex high level language elements like expressions, statements, methods, and classes.
 
-+ __Identifiers__: They are used to denote classes, methods, variables and labels. They are made up of characters, which can letters or digits. *First character must be a letter*. `Unicode Character Set` defines letter and digits in Java. These are the rules the compiler uses to determine whether a name is legal.
++ __Identifiers__: They are used to denote classes, methods, variables and labels. They are made up of characters, which can be letters or digits. *First character must be a letter*. `Unicode Character Set` defines letter and digits in Java. These are the rules the compiler uses to determine whether a name is legal.
     + *Connecting Punctuation* like \_  and *Currency Symbols* like $, ¢, ¥, or £ are valid letters, but should be avoided.
     + Identifiers in Java are *Case Sensitive*.
     + Examples:
         + Valid: name, Name, add_$, $$\_100, grß
         + Invalid: name@, grand-sum, 45rik
+
+    + _Important Note_: Unicode in java uses Hexadecimal to express a character.  For example, the value 0x0041 represents the Latin character A. The Unicode standard was initially designed using 16 bits to encode characters because the primary machines were 16-bit PCs. When the specification for the Java language was created, the Unicode standard was accepted and the char primitive was defined as a 16-bit data type, with characters in the hexadecimal range from 0x0000 to 0xFFFF.
+    Because 16-bit encoding supports 216 (65,536) characters, which is insufficient to define all characters in use throughout the world, the Unicode standard was extended to 0x10FFFF, which supports over one million characters. The definition of a character in the Java programming language could not be changed from 16 bits to 32 bits without causing millions of Java applications to no longer run properly. To correct the definition, a scheme was developed to handle characters that could not be encoded in 16 bits.
+      The characters with values that are outside of the 16-bit range, and within the range from 0x10000 to 0x10FFFF, are called supplementary characters and are defined as a pair of char values.
+
 + __Keywords__: Reserved words, predefined in the language and cannot be used to denote entities. They are in *Lowercase*.
     + These 3 keywords are reserved as predefined *literals*, `null`, `true`, `false`
     + `const` and `goto`, are all reserved keywords but are not in use.
@@ -41,17 +46,20 @@ So now we will study these basic constructs of the Java Programming Language.
 + __Integer Literals__
     + Integer literals in java are represented by the following data types
         + **int**  : this is the default type of integer literals.
+            - its a 32-bit signed two's complement integer
         + **long** : suffixing `L` or `l` to integer literals, makes them a long literal type. It is recommended that you use the upper case letter L because the lower case letter l is hard to distinguish from the digit 1.
         + **byte** : there is *no direct way* to specify byte literal
         + **short**: there is *no direct way* to specify short literal
+        + _Note_: The short and byte are mainly intended for specialized application, such as low level file handling or for large arrays when storage space is at premium.
+
     + Integers can be represented in following number systems.
         + *decimal (base 10)* : default representation
         + *Octal (base 8)*    : specified by using prefix `0` (zero).
         + *hexadecimal (base 16)* : specified by using prefix `0x` or `0X`. Hexadecimals from 'a' to 'f', can also be represented by 'A' to 'F'.
     + Negative numbers are represented by prefixing `-` sign to literal, irrespective of number system.
 
-    |  Decimal    |  Octal    | Hexadecimal |
-    | :---------: |  :------: | :----------: |
+    | Decimal     | Octal     | Hexadecimal |
+    | :---------: | :------:  | :---------: |
     | 8           | 010       | 0x8         |
     | 90L         | 0132L     | 0x5aL       |
 
