@@ -95,7 +95,7 @@ In general, class has the following basic structure
 }
 ```
 
-+ Full declaration of a methods is called as __method signature__.
+Full declaration of a methods is called as __method signature__.
 
 ----
 
@@ -117,3 +117,66 @@ In general, class has the following basic structure
   + If there is no 'package' or 'import' statements defined, then class declaration must be the first non-comment line in the source file.
   + A file can have more than one non-public class, but only one public class per file is allowed.
   + A file with no public class, can take any name.
+
+## Local Variables, Member/Instance Variables & Static Variables
+
+  * **Local Variables**: It's variable defined within a method, and must be initialized before use. They contain junk data until initialized. The compiler doesn't let you read an uninitialized value.
+  These variables are created when a method is called/executed. These variables live on stack, and cease to exist once the method call returns.
+  For Example:
+
+    ```java
+      public class Employee {
+
+        public void sampleMethod(){
+          int x;
+
+          int result = x*3; // This leads to a compilation error.
+                       ^
+        }
+      }
+    ```
+
+  * **Instance Variables**: Variables that are not local variables are instance variables.(java does not support block-scope variables). They are also known as fields. They are provided default values if they are not initialized. These variables represent the state of the object, hence each object has its own separate copy of instance variables.
+
+  * **Class Variables**: A class variable is created by adding `static` keyword in variable declaration. These variables are shared across instances of a class, hence they are known as class variables. We will study static variables at length in articles to come.
+
+  ***Variable Scope***:
+
+  Please read the comments in the code block
+
+```java
+  public void eatIfHungry(boolean hungry){
+      if(hungry){
+        int bitesOfCheese = 1;
+        { // This is a code block
+          // Variables declared outside this block, are accessible here, but
+          // variables declared here, are not accessible outside.
+
+          boolean teenyBit = true;
+          System.out.println(bitesOfCheese); // bitesOfCheese is accessible here.
+        }
+        System.out.println(teenyBit); // teenyBit is NOT accessible here. Hence DOES NOT COMPILE
+                           ^
+      }
+  }
+```
+
+  * **Local variables**: in scope from declaration to end of block
+  * **Instance variables**: in scope from declaration until object garbage collected
+  * **Class variables**: in scope from declaration until program ends
+
+## Objects & References
+
+Note that there is often a lot of confusion between references and the objects they refer to. They are two different entities.
+
++ The reference is a variable that has a name and can be used to access the contents of an object.
++ Reference can be assigned to another reference, passed to a method, or returned from a method.
++ All references are of the same size, no matter what their type is.
++ An object sits on the heap and does not have a name. Therefore, you have no way to access an object except through a reference.
++ Object can be of different shapes & sizes and consume varying amount of memory.
++ Object cannot be assigned to another object, nor can they be passed to a method or returned from a method.
++ Its a reference that is passed to methods or returned from methods.
+
+  ![Object & References](/images/tutorials/tut-java/object-reference.png)
+
+All of the java objects are stored in program memory's '_Heap_'. Its also referred to as free storage, represents a large pool of unused memory available to our application. The heap space is quite large, but there is always a limit to its size. If the program keeps creating objects & leaving them on the heap, it will eventually run out of memory.

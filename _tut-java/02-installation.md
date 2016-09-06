@@ -37,7 +37,28 @@ To Install JDK, please follow the following steps:
   4. Now Java installation can be verified using instructions provided in _Verify Installation_ section below.
   5. Your machine is now ready for Java Development
 
-+ __*Ubuntu*__: [see instructions here](https://www.digitalocean.com/community/tutorials/how-to-install-java-on-ubuntu-with-apt-get)
++ __*Ubuntu*__:
+
+  **Installing Java on Ubuntu**
+
+  1. Use the command `sudo apt-get update` to update the `apt-get` package lists.
+  2. Now use the below command to install Oracle Java on ubuntu. (Open JDK is not recommended)
+
+  ```bash
+  $ sudo add-apt-repository ppa:webupd8team/java
+  $ sudo apt-get install oracle-java8-installer
+  $ sudo apt-get install oracle-java8-set-default
+  ```
+
+  Java 8 is now setup on your machine.
+
+  **Setting JAVA_HOME**
+
+  1. Open terminal, and type `sudo nano /etc/environment`, this will open nano editor, to edit the environment variables.
+  2. Now add the line `JAVA_HOME="/usr/lib/jvm/java-8-oracle"`, to the opened file.
+  3. Reload this file by executing command `source /etc/environment`
+  4. Now JAVA_HOME has been set up. Please verify by executing command `echo $JAVA_HOME`.
+
 + __*Mac*__: [see instructions here](http://docs.oracle.com/javase/7/docs/webnotes/install/mac/mac-jdk.html)
 
 ## Verify Installation

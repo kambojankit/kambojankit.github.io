@@ -168,4 +168,4 @@ Java assigns default initial values to variables, in case no initial value is de
 | float     | 0.0f          |
 | objects   | null          |
 
-__Note__: All variables are not provided default values in java. for example, variables declared inside methods are not initialised by default. We will study about them in detail, in chapters to follow.
+__Note__: All variables are not provided default values in java. for example, variables declared inside methods are not initialized by default. We will study about them in detail, in chapters to follow.
