@@ -48,35 +48,50 @@ When I'm not coding, I like to write blogs and articles on topics of my interest
 
 ## Experience
 
-* *FIDELITY INTERNATIONAL*
+* EXADATUM
 ---
-  *Analyst Programmer* __September'14 to August'16__
+  **Senior Engineer** *September'16 to Present*
+
+	+ Designing and Developing the Big Data Product Catalyst.
+	+ Introduced BDD style testing using Jasmine/Karma into existing application code.
+	+ Developed modern solutions and features for large Enterprise Java systems.
+	+ Collaborated with and guided global team members transitioning to client side architecture.
+
+	**Technical Environment** --- Java, RESTful Web Services, Spring, Hibernate, Angular2.js, Jasmine.js, Cucumber, Tomcat.
+
+
+* FIDELITY INTERNATIONAL
 ---
-	Designed Angular2.js based application to replace and improve upon existing legacy system.
-	Introduced BDD style testing using Jasmine/Karma into existing application code.
-	Developed modern solutions and features for large Enterprise Java systems.
-	Collaborated with and guided global team members transitioning to client side architecture.
----
-	**Technical Environment** Java, RESTful Web Services, Spring, Hibernate, Angular2.js, Jasmine.js, Cucumber, Tomcat.
+  **Analyst Programmer** *September'14 to August'16*
+
+	+ Designed Angular2.js based application to replace and improve upon existing legacy system.
+	+ Introduced BDD style testing using Jasmine/Karma into existing application code.
+	+ Developed modern solutions and features for large Enterprise Java systems.
+	+ Collaborated with and guided global team members transitioning to client side architecture.
+
+	**Technical Environment** --- Java, RESTful Web Services, Spring, Hibernate, Angular2.js, Jasmine.js, Cucumber, Tomcat.
+
 
 * **SEARS HOLDINGS INDIA**
 ---
-  *Technical Associate* __May'12 to September'14__
----
-  Designed and implemented features and improvements for multiple enterprise sized applications.
-	Automated manual report generation for legacy ticketing system to provide reliable team analytics.
-	Provided quality solutions to mission critical production issues in a timely manner.
-	Proposed, designed and implemented a realtime tracking, deployment and notification system for test environments.
----
-	**Technical Environment** Java, RESTful Web Services, Spring, My-Batis, JBOSS, MSSQL/Oracle, JUnit.
+  **Technical Associate** *May'12 to September'14*
+
+  + Designed and implemented features and improvements for multiple enterprise sized applications.
+  + Automated manual report generation for legacy ticketing system to provide reliable team analytics.
+  + Provided quality solutions to mission critical production issues in a timely manner.
+  + Proposed, designed and implemented a realtime tracking, deployment and notification system for test environments.
+
+  **Technical Environment** --- Java, RESTful Web Services, Spring, My-Batis, JBOSS, MSSQL/Oracle, JUnit.
+
 
 * **FREELANCER**
 ---
-  *Trainer* __2008 to 2012__
----
-	Designed courses and trained under-grads on Programming Languages and Mathematics.
----
-	**Environment** Mathematics, Physics, C, Data Structure, Algorithms.
+  **Trainer** *2008 to 2012*
+
+
+	+ Designed courses and trained under-grads on Programming Languages and Mathematics.
+
+	**Environment** --- Mathematics, Physics, C, Data Structure, Algorithms.
 
 {% include feature_row id="end" type="center"%}
 

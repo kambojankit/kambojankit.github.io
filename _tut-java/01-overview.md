@@ -2,7 +2,7 @@
 title: "Overview"
 permalink: /tut-java/overview/
 excerpt: "This is the overview of java programming language"
-modified: 2016-06-20
+modified: 2016-05-20
 header:
   teaser: teaser/default.jpg
 categories:
@@ -19,12 +19,15 @@ What makes java special is its ease of use and rich set of functionalities it pr
 
 ## Pre-Requisites
 
-We assume that target audience has some programming knowledge and know how to write basic programs in any language e.g C, C++ etc.
+This tutorial is targeted towards the group attending online/classroom training in Java. However a person with basic programming knowledge in language like C, C++ etc, should be able to follow through without any supervision.
+
+In case you are interested in attending the training, please contact-us through e-mail.
 
 ## Java: What's In a Word
 
-_'Well, its a programming language'_, thats what this word bring up in most of our minds. But, Java is not only a Programming Language.
-More than a language and Java is a *Platform*, with a rich set of Libraries, an Execution Environment, reusable code API etc.
+The first question that comes in most of our minds is: _'What is Java?'_. Most of us, do have an answer though partially correct.
+_'Java, is a programming language'_, thats what we initially think of. But, Java is not only a Programming Language.
+More than a language, Java is a *Platform*, with a rich set of Libraries, an Execution Environment, reusable code API etc.
 
 > Java is a whole *Platform*, with a huge library, containing lots of reusable code, and an execution environment that provides services such as security, portability across operating systems and automatic garbage collection. - Cay S. Horstmann
 
@@ -32,7 +35,7 @@ We can summarize the key aspects of Java as below:
 
 + __Simple__ : Java as a programming language has simple and cleaner syntax, then its previous counterparts like C++. Its easy to understand and work with.
 + __Object Oriented__ : Java belongs to  Object Oriented Programming Paradigm. We will study OOPs as we call it, at length in topics to come, but simply put, with OOPs we focus on Data and Interfaces on that Data.
-+ __Network Savvy__ : Java has built in library to allow Network Programming, and accessing network is as easy as communicating to the local file system.
++ __Network Savvy__ : Java has built in library to allow Network Programming, and accessing network, is as easy as communicating to the local file system.
 + __Robust__ : Java focuses, not only on early error detection but also on Runtime error detection. This allows for capability in the program to behave well in error situations.
 + __Secure__ : Java has a very high use in Networked/Distributed environments, and Java complements it equally with security built right into the platform. Java has had very few security bugs. Java enables creating virus free and tamper-free systems.
 + __Architecture Neutral__ : The Java compiled code, called byte-code executes on a Virtual Machine (VM). byte-code is independent of the underlying machine architecture. Hence it can easily be converted by VM to machine language on any machine architecture on the fly.

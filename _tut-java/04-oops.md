@@ -2,7 +2,7 @@
 title: "Object Oriented Programming"
 permalink: /tut-java/oops/
 excerpt: "Understanding the concept and principles of OOPs paradigm"
-modified: 2016-06-26
+modified: 2016-05-28
 ---
 
 {% include base_path %}
@@ -10,7 +10,7 @@ modified: 2016-06-26
 We have had a look at the primitive data types supported in Java. But the real strength of the language lies in its support for Object Oriented Programming Paradigm. I say supports because its not a pure OOPs language, since it supports primitive types. In a pure OOPs language, everything including the pre-defined types must be objects, which is not the case with java. Now we will try to dive into the concepts of OOPs and how is it different from procedural language like C.
 
 ## OOPs
-__Object Oriented Programming__ paradigm emphasize on 'data' and how to operate on that 'data'. This is a different approach, when compared to procedural programming where emphasis is on procedures ( routines or sub-routines) and on the steps of execution. In order for data to be available to more than one function it must be declared GLOBAL.
+__Object Oriented Programming__ paradigm emphasize on 'data' and how to operate on that 'data'. This is a different approach, when compared to procedural programming where emphasis is on procedures ( routines or sub-routines) and on the steps of execution, where in order for data to be available to more than one function it must be declared GLOBAL.
 
 Putting it in simple terms, in procedural language, the behavior of the system is written as a sequence of steps in routines or procedures. Then these behaviors can be triggered by some other routine or sub-routine.
 
@@ -46,7 +46,7 @@ Hence we can view our cart as below:
   }
 ```
 
-But in this example, we can hold, only one item, which is not what we intend to do, thus to hold more than one item, we can define our cart in java to hold an attar of items as below:
+But in this example, we can hold, only one item, which is not what we intend to do, thus to hold more than one item, we can define our cart in java to hold an array of items as below:
 
 ```java
   // A cart capable of holding more than one item at a time.
@@ -64,12 +64,13 @@ Hence we can add the behavior to our cart as below:
   class Cart{
     string[] itemName;
 
-    //behavior
+    //behavior (add item)
     void addItemToCart(){
       //... code to add item to array itemName
     }
 
-    void addItemToCart(){
+    // behavior (removal of item)
+    void removeItemFromCart(){
       //... code to remove item from array itemName
     }
     //...
@@ -78,14 +79,14 @@ Hence we can add the behavior to our cart as below:
 
 ___Thus classes are templates representing structure of the real world object in java world. Objects are Instances of these classes, which hold data (state) and behave during the execution of program. These objects (instances of class) are created using the template (class defined) during the program execution.___
 
-**Note**: Don't worry, if syntax sound unfamiliar, we will cover it all topics to come.
+**Note**: Don't worry, if syntax sound unfamiliar, we will cover it all, in further articles.
 
 ## Principles of OOPs
 
 ### Abstraction
 The process of abstraction in Java is used to hide certain details (mainly implementation of logic) and only show the essential features of the object. Its a generic terms, which refers mostly to generalization of functionality of Object types.
 
-For example, Phone in general, exposes dial as a functionality or we can say abstracts dial as a function of all phones.
+For example, Phone in general, exposes dial as a functionality or we can say abstracts, dial as a function of all phones.
 
 'Dial' function is available in all types of phone. We can always dial a number to make a call, on almost all types of phones, even though how those phones processes the dial instruction can be different.
 
@@ -143,28 +144,28 @@ Java provides a keyword `extends`, which allows to create a class from a parent 
 For example, A class MountainBike, RoadBike, LeisureBike from the parent Bike.
 
 ```java
-class Bike {
-  int currentGear;
-  int gearCount;
-  ...
+  class Bike {
+    int currentGear;
+    int gearCount;
+    ...
 
-  void changeGear() {
-    //Change gear by +1
+    void changeGear() {
+      //Change gear by +1
+    }
+    ...
   }
-  ...
-}
 
-class MountainBike extends Bike {
-  //Code goes here, and all elements of Bike available here.
-}
+  class MountainBike extends Bike {
+    //Code goes here, and all elements of Bike available here.
+  }
 
-class RoadBike extends Bike {
-  //Code goes here, and all elements of Bike available here.
-}
+  class RoadBike extends Bike {
+    //Code goes here, and all elements of Bike available here.
+  }
 
-class LeisureBike extends Bike {
-  //Code goes here, and all elements of Bike available here.
-}
+  class LeisureBike extends Bike {
+    //Code goes here, and all elements of Bike available here.
+  }
 ```
 
 ### Polymorphism

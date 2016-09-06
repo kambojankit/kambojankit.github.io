@@ -2,7 +2,7 @@
 title: "Basics"
 permalink: /tut-java/basics/
 excerpt: "Learn the basics building blocks of the language, and write something big."
-modified: 2016-06-23
+modified: 2016-05-25
 ---
 
 {% include base_path %}
