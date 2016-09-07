@@ -105,7 +105,7 @@ Full declaration of a methods is called as __method signature__.
 
 **variables & methods**: First letter should be lower case and follow 'camelCase'. In case of methods the names should typically be verb-noun pair. e.g.: Variables (accountBalance, buttonWidth), Methods (getBalance, doCalculation, setName) etc
 
-**constants**: to create constants in java, create a varibale marked `static` and `final`. They should be named using uppercase letter, using underscores as separators. e.g. : MIN_BALANCE, MAX_WIDTH.
+**constants**: to create constants in java, create a variable marked `static` and `final`. They should be named using uppercase letter, using underscores as separators. e.g. : MIN_BALANCE, MAX_WIDTH.
 
 
 ## Source File Declaration Rules
@@ -179,4 +179,4 @@ Note that there is often a lot of confusion between references and the objects t
 
   ![Object & References](/images/tutorials/tut-java/object-reference.png)
 
-All of the java objects are stored in program memory's '_Heap_'. Its also referred to as free storage, represents a large pool of unused memory available to our application. The heap space is quite large, but there is always a limit to its size. If the program keeps creating objects & leaving them on the heap, it will eventually run out of memory.
+All of the java objects are stored in program memory's _Heap_. Its also referred to as free storage, represents a large pool of unused memory available to our application. The heap space is quite large, but there is always a limit to its size. If the program keeps creating objects & leaving them on the heap, it will eventually run out of memory.

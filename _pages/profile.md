@@ -107,8 +107,11 @@ When I'm not coding, I like to write blogs and articles on topics of my interest
 
 ## Education
 
-* **Oracle Certified Professional, Java SE 6 Programmer** __May 2013__
-* **Bachelor of Technology (Computer Science)** __2007 to 2011__
-	Kurukshetra University, Kurukshetra, India
+* Oracle Certified Professional, Java SE 6 Programmer
+---
+Oracle University, __May 2013__
 
+* Bachelor of Technology (Computer Science)
+---
+  Kurukshetra University, Kurukshetra, India, __2007 to 2011__
 {% include feature_row id="end" type="center"%}
