@@ -11,7 +11,7 @@ Java operators
     compound assignment
     relational
     logical
-    equality
+    equality  
 
 Conditional statements (if, ternary operator, switch)
 Iteration statements & their nesting
@@ -30,6 +30,7 @@ Type Conversion
   narrowing and widening conversions
   typecasting and instance of
 
+Statics in java
 
 package in java (KM, 4.2)
   running code from packages
